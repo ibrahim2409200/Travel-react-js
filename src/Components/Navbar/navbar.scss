@@ -33,7 +33,7 @@
     
         .icon{
             font-size: 25px;
-            color: var(--PrimaryColor);
+            color: var(--PrimaryColor) !important;
             transform: translateY(5px);
         }
     }
@@ -97,15 +97,15 @@
     
     }
     
-    .toggleNavBar{
-        .icon{
-            font-size: 25px;
-            color: var(--PrimaryColor);
-        }
-        &:hover.icon{
-            color:var(--SecondaryColor)
-        }
-    }
+    // .toggleNavBar{
+    //     .icon{
+    //         font-size: 25px;
+    //         color: var(--PrimaryColor);
+    //     }
+    //     &:hover.icon{
+    //         color:var(--SecondaryColor)
+    //     }
+    // }
 
 }
 
